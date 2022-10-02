@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Profile card component | Frontend Mentor</title>
+
+  <link rel="stylesheet" href="styles.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh-Sans:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <main>
+    <div class="wrapper">
+      <section class="card">
+        <img 
+          src="./images/bg-pattern-card.svg" 
+          alt="blue bubbles pattern background"
+          width="350"
+          height="150"
+          loading="eager" 
+          class="user-bg">
+        <img 
+          src="./images/image-victor.jpg" 
+          alt="Profile picture of Victor" 
+          width="110"
+          class="user-picture">
+        <h3 class="user-fullname">Victor Crest</h3> <p class="user-age">26</p>
+        <p class="user-city">London</p>
+        <footer class="flex">
+          <p class="user-followers"><span class="followers-count">80K</span> Followers</p>
+          <p class="user-likes"><span class="likes-count">803K</span> Likes</p>
+          <p class="user-photos"><span class="photos-count"> 1.4K</span> Photos</p>
+        </footer>
+      </section>       
+    </div> <!-- /.wrapper -->
+  </main>
+</body>
+</html>
